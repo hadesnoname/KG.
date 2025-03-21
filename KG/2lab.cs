@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KG;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +30,7 @@ namespace WindowsFormsApplication1
             numericUpDownLineWidth.Maximum = 10;
             numericUpDownLineWidth.Value = 1;
         }
-            
+
         private void pictureBox1_MouseUp(object sender, MouseEventArgs e)
         {
             if (radioButton1.Checked)
@@ -189,7 +190,7 @@ namespace WindowsFormsApplication1
             DialogResult dialogResult = colorDialog1.ShowDialog();
             if (dialogResult == DialogResult.OK)
             {
-                currentFillColor = colorDialog1.Color; 
+                currentFillColor = colorDialog1.Color;
             }
         }
     }

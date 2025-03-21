@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            numericUpDownLineWidth = new NumericUpDown();
             button4 = new Button();
             button3 = new Button();
             button2 = new Button();
@@ -38,11 +39,10 @@
             radioButton1 = new RadioButton();
             pictureBox1 = new PictureBox();
             colorDialog1 = new ColorDialog();
-            numericUpDownLineWidth = new NumericUpDown();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownLineWidth).BeginInit();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownLineWidth).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -58,6 +58,13 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(237, 440);
             panel1.TabIndex = 0;
+            // 
+            // numericUpDownLineWidth
+            // 
+            numericUpDownLineWidth.Location = new Point(8, 143);
+            numericUpDownLineWidth.Name = "numericUpDownLineWidth";
+            numericUpDownLineWidth.Size = new Size(150, 27);
+            numericUpDownLineWidth.TabIndex = 5;
             // 
             // button4
             // 
@@ -144,13 +151,6 @@
             pictureBox1.MouseDown += pictureBox1_MouseDown;
             pictureBox1.MouseUp += pictureBox1_MouseUp;
             // 
-            // numericUpDownLineWidth
-            // 
-            numericUpDownLineWidth.Location = new Point(8, 143);
-            numericUpDownLineWidth.Name = "numericUpDownLineWidth";
-            numericUpDownLineWidth.Size = new Size(150, 27);
-            numericUpDownLineWidth.TabIndex = 5;
-            // 
             // _2lab
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -162,10 +162,10 @@
             Text = "_2lab";
             Load += _2lab_Load;
             panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)numericUpDownLineWidth).EndInit();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)numericUpDownLineWidth).EndInit();
             ResumeLayout(false);
 
         }

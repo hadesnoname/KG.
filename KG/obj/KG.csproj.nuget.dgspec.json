@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ilyam\\source\\repos\\KG\\KG\\KG.csproj": {}
+    "C:\\Users\\ilyam\\source\\repos\\Comp Grah\\KG\\KG\\KG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ilyam\\source\\repos\\KG\\KG\\KG.csproj": {
+    "C:\\Users\\ilyam\\source\\repos\\Comp Grah\\KG\\KG\\KG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilyam\\source\\repos\\KG\\KG\\KG.csproj",
+        "projectUniqueName": "C:\\Users\\ilyam\\source\\repos\\Comp Grah\\KG\\KG\\KG.csproj",
         "projectName": "KG",
-        "projectPath": "C:\\Users\\ilyam\\source\\repos\\KG\\KG\\KG.csproj",
+        "projectPath": "C:\\Users\\ilyam\\source\\repos\\Comp Grah\\KG\\KG\\KG.csproj",
         "packagesPath": "C:\\Users\\ilyam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilyam\\source\\repos\\KG\\KG\\obj\\",
+        "outputPath": "C:\\Users\\ilyam\\source\\repos\\Comp Grah\\KG\\KG\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
