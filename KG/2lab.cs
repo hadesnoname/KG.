@@ -193,6 +193,12 @@ namespace WindowsFormsApplication1
                 currentFillColor = colorDialog1.Color;
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+        }
     }
 }
 

@@ -40,4 +40,3 @@ C:\Users\ilyam\source\repos\Comp Grah\KG\KG\obj\Debug\net8.0-windows\KG.pdb
 C:\Users\ilyam\source\repos\Comp Grah\KG\KG\obj\Debug\net8.0-windows\KG.genruntimeconfig.cache
 C:\Users\ilyam\source\repos\Comp Grah\KG\KG\obj\Debug\net8.0-windows\ref\KG.dll
 C:\Users\ilyam\source\repos\Comp Grah\KG\KG\obj\Debug\net8.0-windows\KG.Form4.resources
-C:\Users\ilyam\source\repos\Comp Grah\KG\KG\obj\Debug\net8.0-windows\KG..resources
